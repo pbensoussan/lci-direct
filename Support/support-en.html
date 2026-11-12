@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCI Direct Support</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1d1d1f;
+            --secondary-text: #6e6e73;
+            --accent-color: #0066cc;
+            --border-color: #d2d2d7;
+            --card-bg: #f5f5f7;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #000000;
+                --text-color: #f5f5f7;
+                --secondary-text: #86868b;
+                --accent-color: #2997ff;
+                --border-color: #38383a;
+                --card-bg: #1c1c1e;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 24px 20px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: var(--secondary-text);
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 2.25rem;
+            margin-bottom: 0.75rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-top: 1.25rem;
+            margin-bottom: 0.35rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        ul, ol {
+            padding-left: 1.25rem;
+            margin-top: 0;
+            margin-bottom: 1.25rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .tip-box {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 14px 18px;
+            margin: 1.25rem 0;
+            font-size: 0.95rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>LCI Direct Support</h1>
+        <p class="subtitle">How to watch LCI live on iPhone, iPad, Mac, and Apple TV.</p>
+
+        <h2>1. Watching on iPhone, iPad, and Mac</h2>
+        <p><strong>LCI Direct</strong> lets you watch the live LCI stream natively on your Apple devices.</p>
+        <ul>
+            <li><strong>iPhone &amp; iPad:</strong> Open the app and use the <strong>•••</strong> menu to start playback (<strong>Play</strong>), pause, mute, or view stream details (<strong>Info...</strong>).</li>
+            <li><strong>Mac:</strong> Use the <strong>Stream</strong> menu in the menu bar to control playback (<strong>Play</strong>, <strong>Pause</strong>, <strong>Mute</strong>), resize the player (<strong>Actual Size</strong>), or select <strong>Info...</strong> to view the stream link and its status.</li>
+        </ul>
+
+        <h2>2. Watching on Apple TV</h2>
+        <p>Because the live stream requires a temporary session link, your iPhone, iPad, or Mac sends the stream link directly to your Apple TV over your local network.</p>
+        <ol>
+            <li>Make sure your Apple TV and your iPhone, iPad, or Mac are connected to the <strong>same Wi-Fi or local network</strong>.</li>
+            <li>Open the <strong>LCI Direct</strong> app on your Apple TV. It will display: <em>"Waiting for a link from your iPhone, iPad or Mac..."</em></li>
+            <li>Open <strong>LCI Direct</strong> on your iPhone, iPad, or Mac.</li>
+            <li>Open the <strong>•••</strong> menu (iPhone/iPad) or the <strong>Stream</strong> menu (Mac) and choose <strong>Send Link to Apple TV</strong>.</li>
+            <li>Once the link is received on your Apple TV, press <strong>Play</strong> to start watching.</li>
+        </ol>
+
+        <div class="tip-box">
+            <strong>Automatic Handoff Tip:</strong> Enable <strong>Send Link to Apple TV at Launch</strong> in the menu so the stream link is automatically sent to your Apple TV whenever you open the app on your iPhone, iPad, or Mac.
+        </div>
+
+        <h2>3. Stream Link Expiration &amp; Status</h2>
+        <p>Live stream links are temporary and valid for a limited time. You can check the exact expiration time anytime by opening <strong>Info...</strong> in the <strong>•••</strong> or <strong>Stream</strong> menu (<em>"Link valid until..."</em>).</p>
+        <p>If your Apple TV warns you that <em>"The link is about to expire"</em> or <em>"This link has expired"</em>, simply open <strong>LCI Direct</strong> on your iPhone, iPad, or Mac and choose <strong>Send Link to Apple TV</strong> again to refresh the stream.</p>
+
+        <h2>4. Troubleshooting</h2>
+        <h3>"Could not reach Apple TV"</h3>
+        <ul>
+            <li>Verify that the <strong>LCI Direct</strong> app is currently open and active on your Apple TV screen.</li>
+            <li>Confirm that both devices are on the exact same local network (and not separated by a guest Wi-Fi network or an active VPN).</li>
+            <li>On iPhone, iPad, and Mac, ensure <strong>Local Network</strong> permission is enabled for <strong>LCI Direct</strong> in your system privacy settings.</li>
+        </ul>
+
+        <h3>Playback Issues</h3>
+        <ul>
+            <li>Check <strong>Info...</strong> to verify the stream status and confirm the link has not expired.</li>
+            <li>Ensure you have an active internet connection and that no network filter is blocking access to the broadcaster's stream.</li>
+        </ul>
+
+        <footer>
+            <p>Need further assistance or want to report an issue? Contact us at <a href="mailto:lci.direct.app@gmail.com">lci.direct.app@gmail.com</a>.</p>
+            <p>&copy; <span id="year"></span> LCI Direct. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
