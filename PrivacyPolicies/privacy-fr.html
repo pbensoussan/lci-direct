@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - LCI Direct</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1d1d1f;
+            --secondary-text: #6e6e73;
+            --accent-color: #0066cc;
+            --border-color: #d2d2d7;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #000000;
+                --text-color: #f5f5f7;
+                --secondary-text: #86868b;
+                --accent-color: #2997ff;
+                --border-color: #38383a;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 24px 20px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            letter-spacing: -0.02em;
+        }
+
+        .effective-date {
+            color: var(--secondary-text);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: var(--secondary-text);
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Politique de confidentialité</h1>
+        <p class="effective-date"><strong>LCI Direct</strong> &bull; Date d'entrée en vigueur : 12 Novembre 2026</p>
+
+        <p><strong>LCI Direct</strong> (« nous », « notre » ou « nos ») respecte votre vie privée. La présente politique de confidentialité explique comment notre application traite vos informations sur iOS, iPadOS, macOS et tvOS.</p>
+
+        <h2>1. Collecte et utilisation des données</h2>
+        <p>Nous ne collectons, ne stockons, ne suivons ni ne partageons aucune donnée personnelle ni aucune statistique d'utilisation. Vous pouvez utiliser l'application sans créer de compte et sans fournir d'informations personnelles.</p>
+
+        <h2>2. Réseau local et transfert vers l'Apple TV</h2>
+        <p>Notre application vous permet d'envoyer un lien de flux vidéo depuis votre iPhone, iPad ou Mac vers votre Apple TV. Cette communication s'effectue directement entre vos appareils (via votre réseau local ou les services système d'Apple) et n'est jamais transmise ni enregistrée sur un serveur externe sous notre contrôle.</p>
+
+        <h2>3. Contenus et flux tiers</h2>
+        <p>Cette application se connecte directement à des flux vidéo accessibles au public et fournis par des diffuseurs tiers (LCI / Groupe TF1). Lorsque vous lancez la lecture d'un direct, votre appareil se connecte directement aux serveurs du diffuseur, qui peuvent enregistrer des données de connexion standard (telles que votre adresse IP) conformément à leur propre politique de confidentialité. Nous n'utilisons aucun réseau publicitaire tiers ni aucun SDK d'analyse.</p>
+
+        <h2>4. Conservation et suppression des données</h2>
+        <p>Étant donné que nous ne collectons ni ne stockons aucune donnée utilisateur sur nos serveurs, aucune donnée personnelle n'est conservée ni à supprimer. Les éventuelles préférences locales de l'application sont enregistrées uniquement sur votre appareil et sont effacées lors de la désinstallation de l'application.</p>
+
+        <h2>5. Nous contacter</h2>
+        <p>Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à l'adresse suivante : <a href="mailto:lci.direct.app@gmail.com">lci.direct.app@gmail.com</a></p>
+
+        <footer>
+            &copy; <span id="year"></span> LCI Direct. Tous droits réservés.
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
